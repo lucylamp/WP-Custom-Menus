@@ -1,0 +1,118 @@
+/*CSS styles for WP Custom Menus (Official Film Site*/
+/*FILMSTRIP NAV ('top menu')*/
+#top-menu{
+	position: relative;
+	width: 100%;
+}
+#top-menu ul{
+	list-style: none;
+	 text-align: justify;
+	 font-size: 0.1px;
+	 padding: 0 3%;
+}
+#top-menu ul:after{
+	content: '';
+  	width: 100%; 
+  	display: inline-block;
+}
+#top-menu li{
+	display: inline;
+	width: 14%;
+}
+#top-menu li a{
+	text-decoration: none;	
+	position: relative;
+}
+#top-menu li > a > img{
+	width: 14%;
+	height: auto;
+	opacity: .985;
+}
+#top-menu li > a > img:hover{
+	opacity: 1;
+}
+.top-menu-title{
+	padding: 1% 0 1% 3%;
+	font-size: 75% !important;
+	opacity: .9;
+}
+/*STAR MENU*/
+	/*Nav elements*/
+#star-menu{
+	position: relative;
+	padding: 10% 5%;
+	width: 100%;
+}
+#star-menu ul{
+	list-style: none;
+	text-align: justify;
+	font-size: 0.1px;
+	padding: 0;
+}
+#star-menu ul:after{
+	content: '';
+ 	 width: 100%;
+  	display: inline-block;
+}
+#star-menu li,
+#star-menu.star-menu li{
+	display: inline;
+	position: relative;
+	padding: 5px;
+}
+#star-menu img{
+	width: 13%;
+	height: auto;	
+	opacity: .95;
+}
+#star-menu img:hover{	
+	opacity: 1;
+}
+div.star-menu-title {
+	font-size: 75% !important;
+	padding: 1% 0 0 5%;
+	opacity: .9;
+}
+/*MEDIA QUERIES*/
+/*TOP MENU (FILMSTRIP)*/
+@media (max-width: 550px){
+	#top-menu ul,
+	.top-menu-title{
+		padding: 0 8% 0 8%;
+	}
+	#top-menu li,
+	#top-menu li a,
+	#top-menu li a img {
+		padding: 0;
+	}
+	#top-menu li a img{
+		width: 30%;
+		height: auto;
+	}
+}
+/*STAR MENU*/
+@media (max-width: 604px){
+	#star-menu img{
+		width: 18%;
+	}
+	#star-menu{
+	padding: 5%;
+	}
+	#star-menu li, #star-menu.star-menu li{
+		padding: 0 2px;
+	}
+}
+@media (max-width: 550px){
+	#star-menu img{
+		width: 20%;
+	}
+	#star-menu li,
+	#star-menu.star-menu li{
+		padding: 0;
+	}
+}
+@media (max-width: 400px){
+	#star-menu img{
+		width: 18%;
+	}
+}
