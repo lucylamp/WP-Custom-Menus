@@ -44,9 +44,15 @@ A small menu at the top of the page for basic site functions. Default links are 
 
 
 == Screenshots ==
+
 1. The three menus
+
 2. WP Admin Filmstrip Menu
+ 
 3. WP Admin Star Menu
+
 4. WP Admin Top (Laurel Wreath) Menu
+
 5. WP Admin Theme Customizer
-5. WP Admin Theme Customizer, additional view
+
+6. WP Admin Theme Customizer, additional view
